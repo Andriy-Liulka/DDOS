@@ -9,4 +9,3 @@ D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\De
 D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Debug\net5.0\Services.dll
 D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Debug\net5.0\ref\Services.dll
 D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Debug\net5.0\Services.pdb
-D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
