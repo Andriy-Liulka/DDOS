@@ -1,0 +1,12 @@
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\bin\Release\net5.0\Services.deps.json
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\bin\Release\net5.0\Services.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\bin\Release\net5.0\ref\Services.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\bin\Release\net5.0\Services.pdb
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.csproj.AssemblyReference.cache
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.AssemblyInfoInputs.cache
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.AssemblyInfo.cs
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\ref\Services.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\Services\obj\Release\net5.0\Services.pdb

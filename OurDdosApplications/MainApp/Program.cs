@@ -13,15 +13,15 @@ namespace HttpIdeadDdosProgram
         static List<string> ipaddresses = new();
         static void Main(string[] args)
         {
-            //args = new string[]
-            //{"3",
-            //"80.68.247.26",
-            //"195.218.193.151",
-            //"5.255.255.70",
-            //"5.255.255.77",
-            //"77.88.55.60",
-            //"77.88.55.88",
-            //"195.218.193.151" };
+            args = new string[]
+            {"3",
+            "80.68.247.26",
+            "195.218.193.151",
+            "5.255.255.70",
+            "5.255.255.77",
+            "77.88.55.60",
+            "77.88.55.88",
+            "195.218.193.151" };
             int threads = int.Parse(args[0]);
 
             for (int i = 1; i < args.Length; i++)

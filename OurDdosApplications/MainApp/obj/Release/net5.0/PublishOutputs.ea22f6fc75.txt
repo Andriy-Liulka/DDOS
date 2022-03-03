@@ -1,0 +1,7 @@
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\MainApp.exe
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\MainApp.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\MainApp.deps.json
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\MainApp.runtimeconfig.json
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\MainApp.pdb
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\Services.dll
+D:\ddosrussia\ownProgram\BigDdosProject\DDOS\OurDdosApplications\MainApp\bin\Release\net5.0\publish\Services.pdb
