@@ -1,0 +1,16 @@
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.exe
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.deps.json
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.runtimeconfig.json
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.runtimeconfig.dev.json
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.dll
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\ref\MainApp.dll
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\bin\Debug\net5.0\MainApp.pdb
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.csproj.AssemblyReference.cache
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.AssemblyInfoInputs.cache
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.AssemblyInfo.cs
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.csproj.CoreCompileInputs.cache
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.dll
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\ref\MainApp.dll
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.pdb
+D:\ddosrussia\ownProgram\BigDdosProject\OurDdosApplications\MainApp\obj\Debug\net5.0\MainApp.genruntimeconfig.cache
